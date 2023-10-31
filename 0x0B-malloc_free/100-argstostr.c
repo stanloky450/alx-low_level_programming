@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - main entry
+ * argstostr - main entry space
  * @ac: int input
  * @av: double pointer array
  * Return: 0
@@ -38,4 +38,3 @@ char *argstostr(int ac, char **av)
 	}
 	return (str);
 }
-
